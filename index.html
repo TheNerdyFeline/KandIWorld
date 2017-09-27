@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Katrina and Illyria's World</title>
+    <link rel="shortcut icon" href="./assets/pics/mat-logo.ico" type="image/x-icon">
     <!-- jquery link -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- veiwport info for media query -->
@@ -11,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href rel="stylesheet" type="text/css">
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css">
     
   </head>
   <body>
@@ -25,17 +26,29 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
 	  </button>
-	  <a class="navbar-brand" href="#">Katrina and Illyria's World</a>
+	  <a class="navbar-brand" href="./index.html"><h1 id="brand">Katrina and Illyria's World</h1></a>
 	</div>
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Playtime</a></li>
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a class="menu" href="#">Playtime</a></li>
+            <li><a class="menu" href="#">Books</a></li>
+            <li><a class="menu" href="#">Contact Us</a></li>
 	  </ul>
 	</div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <main>
+	<jumbotron>
+	    <img class="mainPhoto" id="katrina" src="../assets/pics/katrina-tower-asleep-small.jpg" alt="katrinaProf">
+	    <img class="mainPhoto" id="illyria" src="../assets/pics/illyria-bed-asleep-tucked.jpg" alt="illyriaProf">
+	    <img class="mainPhoto" id="kenzi" src="../assets/pics/kenzi-tower-asleep-small.jpg" alt="kenzProf">
+	    <img class="mainPhoto" id="charming" src="../assets/pics/charming-sitting-tower.jpg">
+	    <h2 id="katName">Katrina</h2>
+	    <h2>id="illName">Illyria</h2>
+	    <h2 id="kenName">Kenzi</h2>
+	    <h2 id="pcName">Prince Charming</h2>
+	</jumbotron>
+    </main>
     <script src type="text/javascript"></script>
   </body>
 </html>
