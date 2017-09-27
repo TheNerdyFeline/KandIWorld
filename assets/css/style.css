@@ -2,36 +2,21 @@ body {
     background: #E1E7EB;
 }
 
-.container-fluid {
-    display: block;
-    margin: auto;
-    max-width: 750px;
-}
-
-.navbar {
-    height: 8em;
-    background: #EDF2F4;
-    border-bottom: 1px solid #949A9D;
+nav {
+    height: 6em;
+    background: #798992;
+    //border-bottom: 1px solid #949A9D;
     
 }
 
-.navbar-brand {
-    width: 30em;
-}
-
-#navLogo {
-    width: 3.5em;
-    margin: 0;
-}
-
 #brand {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
     font-family: 'Slabo 27px', serif;
     color: #58D3F7;
     -webkit-text-stroke: 1px #D0A9F5;
     text-shadow: 3px 2px 0 #D0A9F5;
-    z-index: 5;
+    margin-top: .5em;
 }
 
 .menu {
