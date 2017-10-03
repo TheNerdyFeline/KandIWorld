@@ -2,12 +2,12 @@ body {
     background: #E1E7EB;
 }
 
-header {
-    position: absolute;
+nav {
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
-    height: 10em;
+    height: auto;
     background: #798992;
     margin-bottom: 20px;
 }
@@ -22,35 +22,43 @@ header {
     
 }
 
-nav {
-    height: 10em;
-    background: transparent;
-    //border-bottom: 1px solid #949A9D;
-}
-
 h1 {
     margin-top: .35em;
 }
 
 #brand {
-    width: 240px;
-    font-size: 41px;
+    position: relative;
+    font-size: 48px;
     font-weight: 600;
     font-family: 'Slabo 27px', serif;
     margin-bottom: 0;
-    margin-left: 1em;
     color: #58D3F7;
-    -webkit-text-stroke: 1px #D0A9F5;
-    text-shadow: 3px 2px 0 #D0A9F5;
+    //-webkit-text-stroke: 1px #D0A9F5;
+    text-shadow: 4px 3px 0 #D0A9F5;
     text-align: center;
 }
 
+nav .brand-logo {
+    position: relative;
+}
+
 .menu {
-    font-size: 1.5em;
-    margin-top: 1.5em;
-    margin-right: 1em;
+    font-size: 1.85em;
     font-family: 'Raleway', sans-serif;
+    color: #D0A9F5;
     
+}
+
+.nav-center ul {
+    text-align: center;
+}
+.nav-center ul li {
+    display: inline;
+    float: none;
+}
+
+.nav-center ul li a {
+    display: inline-block;
 }
 
 main {
@@ -85,4 +93,11 @@ h2 {
     color: #58D3F7;
     -webkit-text-stroke: 1px #D0A9F5;
     //background: ;
+}
+
+
+@media screen and (max-width: 640px) {
+    nav .button-collapse {
+	margin: -127px 18px;
+    }
 }
