@@ -71,34 +71,18 @@ main {
     max-width: 700px;
 }
 
-.mainPhoto {
-    height: 16em;
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #D0A9F5;
+    text-shadow: 3px 2px 0 #58D3F7;
+    //-webkit-text-stroke: 2px #58D3F7;
+    margin-top: 6em;
+    font-weight: 700;
 }
 
-h2 {
-    width: 3.5em;
+.slider .indicators .indicator-item.active {
+    background: #58D3F7;
 }
-
-.col-md-3 {
-    position: relative;
-    margin-bottom: 20px;
-    padding: 0px;
-}
-
-.name {
-    display: block;
-    position: absolute;
-    text-align: center;
-    bottom: 10px;
-    left: 1em;
-    font-size: 2.5em;
-    font-weight: 600;
-    font-family: 'Slabo 27px', serif;
-    color: #58D3F7;
-    -webkit-text-stroke: 1px #D0A9F5;
-    //background: ;
-}
-
 
 @media screen and (max-width: 370px) {
     nav .button-collapse {
