@@ -1,5 +1,8 @@
 body {
     background: #E1E7EB;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 nav {
@@ -82,6 +85,11 @@ h3 {
 
 .slider .indicators .indicator-item.active {
     background: #58D3F7;
+}
+
+.indent {
+    text-indent: 2em;
+    padding: 10px;
 }
 
 @media screen and (max-width: 370px) {
