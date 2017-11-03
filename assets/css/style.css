@@ -19,10 +19,7 @@ nav {
     position: relative;
     margin: 1.5rem auto;
     padding: 5px;
-    height: 2.5rem;
-    max-width: 700px;
-    line-height: 1em;
-    
+    height: 2.5rem;    
 }
 
 h1 {
@@ -71,7 +68,6 @@ nav .button-collapse {
 main {
     display: block;
     margin: 2em auto;
-    max-width: 700px;
 }
 
 h3 {
@@ -84,13 +80,11 @@ h3 {
 } 
 
 h5 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-family: 'Raleway', sans-serif;
     color: #58D3F7;
     font-weight: 700;
 }
-
-
 
 .slider .indicators .indicator-item.active {
     background: #58D3F7;
