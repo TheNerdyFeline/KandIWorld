@@ -1,0 +1,38 @@
+#store {
+    background: #798992;
+}
+
+a {
+    font-weight: 700;
+    font-size: 1.15em;
+    color: #3D67B3;
+}
+
+.materialboxed {
+    padding: 10px;
+}
+
+#hackems {
+    width: 140px;
+}
+
+#tails {
+    width: 220px;
+    margin-left: -12px;
+}
+
+#featherems {
+    width: 150px;
+}
+
+#oopsie {
+    width: 230px;
+}
+
+#fireball {
+    width: 230px;
+}
+
+#slowBlink {
+    width: 150px;
+}

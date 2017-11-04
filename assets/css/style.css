@@ -1,5 +1,8 @@
 body {
     background: #E1E7EB;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 nav {
@@ -16,10 +19,7 @@ nav {
     position: relative;
     margin: 1.5rem auto;
     padding: 5px;
-    height: 2.5rem;
-    max-width: 700px;
-    line-height: 1em;
-    
+    height: 2.5rem;    
 }
 
 h1 {
@@ -68,20 +68,48 @@ nav .button-collapse {
 main {
     display: block;
     margin: 2em auto;
-    max-width: 700px;
 }
 
 h3 {
-    font-family: 'Raleway', sans-serif;
-    color: #D0A9F5;
-    text-shadow: 3px 2px 0 #58D3F7;
+    font-family: 'Slabo 27px', serif;
+    color: #58D3F7;
+    text-shadow: 3px 2px 0  #D0A9F5;
     //-webkit-text-stroke: 2px #58D3F7;
-    margin-top: 6em;
+    margin-top: 5em;
+    font-weight: 700;
+} 
+
+h5 {
+    font-size: 1.25em;
+    font-family: 'Raleway', sans-serif;
+    color: #58D3F7;
     font-weight: 700;
 }
 
 .slider .indicators .indicator-item.active {
     background: #58D3F7;
+}
+
+.indent {
+    text-indent: 2em;
+    padding: 10px;
+}
+
+#freshLitter {
+    background: #798992;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    color: #58D3F7;
+    text-shadow: 3px 2px 0  #D0A9F5;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+#updateDiv {
+    padding: 10px;
 }
 
 @media screen and (max-width: 370px) {
