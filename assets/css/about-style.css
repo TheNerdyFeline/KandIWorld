@@ -5,3 +5,15 @@
 #about {
     font-size: 3em;
 }
+
+.pic {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.pic2 {
+    height: 200px;
+    display: block;
+    margin: auto;
+}
