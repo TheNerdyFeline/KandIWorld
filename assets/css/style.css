@@ -90,6 +90,14 @@ h5 {
     background: #58D3F7;
 }
 
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 .indent {
     text-indent: 2em;
     padding: 10px;
@@ -110,6 +118,11 @@ h2 {
 
 #updateDiv {
     padding: 10px;
+}
+
+.shelters {
+    display: block;
+    margin: auto;
 }
 
 @media screen and (max-width: 370px) {
